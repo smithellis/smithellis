@@ -1,9 +1,7 @@
-Title: My First Post
+Title: Pelican is Good
 Date: 2014-07-08 10:20
 Category: Pelican
 Tags: pelican, coding, cms
-
-#Pelican is Good
 
 I've just gotten off the ground with the [Pelican Static Site Generator]("http://blog.getpelican.com/").  It's really clever.
 
