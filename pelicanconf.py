@@ -6,7 +6,9 @@ AUTHOR = u'Smith'
 SITENAME = u'SmithEllis'
 SITEURL = ''
 THEME='pelican-themes/pelican-bootstrap3'
+
 GITHUB_USER="smithellis"
+GITHUB_SKIP_FORK = True
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
