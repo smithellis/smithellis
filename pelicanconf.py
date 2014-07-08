@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Slorbo'
-SITENAME = u'Slorbo'
+AUTHOR = u'Smith'
+SITENAME = u'SmithEllis'
 SITEURL = ''
-THEME='/Users/smithe/envs/pelicansite/pelican-themes/pelican-bootstrap3'
+THEME='pelican-themes/pelican-bootstrap3'
 
 PATH = 'content'
 
