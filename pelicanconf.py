@@ -6,7 +6,7 @@ AUTHOR = u'Smith'
 SITENAME = u'SmithEllis'
 SITEURL = ''
 THEME='pelican-themes/pelican-bootstrap3'
-
+GITHUB_USER="smithellis"
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
@@ -25,8 +25,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/smith_ellis'),
+          ('linkedin', 'http://www.linkedin.com/in/smithellis/'),
+          ('github', 'http://github.com/smithellis'),)
 
 DEFAULT_PAGINATION = 10
 
