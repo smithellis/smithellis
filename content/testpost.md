@@ -1,6 +1,7 @@
 Title: My First Post
 Date: 2014-07-08 10:20
 Category: Pelican
+Tags: pelican, coding, cms
 
 #Pelican is Good
 

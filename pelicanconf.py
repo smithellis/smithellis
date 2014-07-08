@@ -11,7 +11,7 @@ GITHUB_USER="smithellis"
 GITHUB_SKIP_FORK = True
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = u'en'
 
@@ -21,10 +21,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Paul McLanahan', 'http://pmac.io/'),
+         ('Blackcattips', 'http://blackcattips.com/'),
+         ('Mike Mitchell', 'http://sirmitchell.com/'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/smith_ellis'),
