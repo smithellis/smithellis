@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Slorbo</title><link href="/" rel="alternate"></link><link href="/feeds/slorbo.atom.xml" rel="self"></link><id>/</id><updated>2010-12-03T10:20:00+01:00</updated><entry><title>My First Post</title><link href="/my-first-post.html" rel="alternate"></link><updated>2010-12-03T10:20:00+01:00</updated><author><name>Slorbo</name></author><id>tag:,2010-12-03:my-first-post.html</id><summary type="html">&lt;h2&gt;Test Post&lt;/h2&gt;
+&lt;p&gt;This is my first test post.&lt;/p&gt;</summary></entry></feed>
