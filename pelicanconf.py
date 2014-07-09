@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Smith'
 SITENAME = u'SmithEllis'
+SITESUBTITLE = u'webdev, code, smith and such'
 SITEURL = 'http://smithellis.com'
 
 THEME='themes/pelican-bootstrap3'
@@ -39,3 +40,22 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#Lifted this from Paul McLanahan - lets see
+#If I get friendly URLS
+
+FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+CATEGORY_URL = 'category/{slug}/'
+CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+ARCHIVES_SAVE_AS = 'archives/index.html'
+ARTICLE_EXCLUDES = ('pages', 'extra')
