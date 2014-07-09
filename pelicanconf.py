@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Smith'
 SITENAME = u'SmithEllis'
-SITEURL = ''
+SITEURL = 'http://www.smithellis.com'
 
 THEME='themes/pelican-bootstrap3'
 
@@ -27,7 +27,8 @@ TRANSLATION_FEED_ATOM = None
 # Blogroll
 LINKS = (('Paul McLanahan', 'http://pmac.io/'),
          ('Blackcattips', 'http://blackcattips.com/'),
-         ('Mike Mitchell', 'http://sirmitchell.com/'),)
+         ('Mike Mitchell', 'http://sirmitchell.com/'),
+         ('AwesomeAthens', "http://www.awesomeathens.com/"),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/smith_ellis'),
