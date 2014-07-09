@@ -6,7 +6,7 @@ AUTHOR = u'Smith'
 SITENAME = u'SmithEllis'
 SITEURL = ''
 
-THEME='pelican-themes/pelican-bootstrap3'
+THEME='themes/pelican-bootstrap3'
 
 GOOGLE_ANALYTICS='UA-94703-1'
 DISPLAY_CATEGORIES_ON_MENU = False
