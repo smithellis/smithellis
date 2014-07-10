@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SmithEllis</title><link>http://smithellis.com/</link><description>webdev, code, smith and such</description><atom:link href="http://smithellis.com/feeds/smith.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 09 Jul 2014 09:00:00 -0400</lastBuildDate><item><title>Expression Engine</title><link>http://smithellis.com/2014/07/expression-engine/</link><description>&lt;p&gt;At my new job we use Expression Engine for our CMS; a for-profit PHP based piece of software from &lt;a href="" title="http://www.ellislab.com"&gt;EllisLab&lt;/a&gt;.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SmithEllis</title><link>http://smithellis.com/</link><description>webdev, code, smith and such</description><atom:link href="http://smithellis.com/feeds/smith.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 09 Jul 2014 21:00:00 -0400</lastBuildDate><item><title>Too Many Interests</title><link>http://smithellis.com/2014/07/too-many-interests/</link><description>&lt;p&gt;I'm pretty awesome, but not perfect.  I know, it's weird to think about that...handsome, clever, bearded...I mean, what's the drawback to this guy?&lt;/p&gt;
+&lt;p&gt;One thing that frustrates me about me is that I have too many interests, and many of them are expensive and time intensive.  I have three small children, so I don't get a ton of me time.  Examples of my interests are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Electronics&lt;/li&gt;
+&lt;li&gt;Painting&lt;/li&gt;
+&lt;li&gt;Programming&lt;/li&gt;
+&lt;li&gt;Writing&lt;/li&gt;
+&lt;li&gt;Science&lt;/li&gt;
+&lt;li&gt;Music - making and listening&lt;/li&gt;
+&lt;li&gt;Movies&lt;/li&gt;
+&lt;li&gt;Scotch&lt;/li&gt;
+&lt;li&gt;Resin toy making&lt;/li&gt;
+&lt;li&gt;Not being outside&lt;/li&gt;
+&lt;li&gt;Video games&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It's a busy house when you have three small children.  There is always something that must be done for someone.  Someone wanting something.  Someone crying.  Now, I love my kids guys.  Don't even start in with all that.  All I'm saying is that if you have 3,000 hobbies and three kids, you aren't going to do those hobbies very much.&lt;/p&gt;
+&lt;p&gt;What's to be done?  I've considered giving up sleeping, but my eyes just close at some point and jack that plan right up.  Thanks, Obama.&lt;/p&gt;
+&lt;p&gt;So, there is my plight.  Too many interests, not enough time.  I know one day the kids will all be grown and I'll be sad they are off at college and my house is empty.  I know it.  But meanwhile, how do you fit it all in?  What do other people do?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Smith</dc:creator><pubDate>Wed, 09 Jul 2014 21:00:00 -0400</pubDate><guid>tag:smithellis.com,2014-07-09:2014/07/too-many-interests/</guid><category>linux</category><category>hobbies</category></item><item><title>Expression Engine</title><link>http://smithellis.com/2014/07/expression-engine/</link><description>&lt;p&gt;At my new job we use Expression Engine for our CMS; a for-profit PHP based piece of software from &lt;a href="" title="http://www.ellislab.com"&gt;EllisLab&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I had never messed with it prior to this job.  Prior to this, I've used Wordpress/Joomla and the proprietary platform we had at Digital Insight - Web Center.&lt;/p&gt;
 &lt;p&gt;I'm guessing the reason I've never monkeyed with Expression Engine is that it costs money, whereas the others (Wordpress, Drupal, et al) are free to use.  &lt;/p&gt;
 &lt;p&gt;Anyway, my initial impressions are:&lt;/p&gt;
@@ -9,22 +26,7 @@
 &lt;li&gt;It allows fairly robust user management.  You can set up, limit and manage users easily.&lt;/li&gt;
 &lt;li&gt;Extensibility - there are modules and plugins galore.  Most of them are pay to play, though - so that's a bummer.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Anyway, overall, it's not a bad CMS.  If the licensing wasn't so costly, and the modules so costly, it might have a wider adoption out there.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Smith</dc:creator><pubDate>Wed, 09 Jul 2014 09:00:00 -0400</pubDate><guid>tag:smithellis.com,2014-07-09:2014/07/expression-engine/</guid><category>EE</category><category>ExpressionEngine</category></item><item><title>Too Many Interests</title><link>http://smithellis.com/2014/07/too-many-interests/</link><description>&lt;p&gt;I'm pretty awesome, but not perfect.  I know, it's weird to think about that...handsome, clever, bearded...I mean, what's the drawback to this guy?&lt;/p&gt;
-&lt;p&gt;One thing that frustrates me about me is that I have too many interests, and many of them are expensive and time intensive.  I have three small children, so I don't get a ton of me time.  Examples of my interests are:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Electronics
-&lt;/em&gt;Painting
-&lt;em&gt;Programming
-&lt;/em&gt;Writing
-&lt;em&gt;Science
-&lt;/em&gt;Music - making and listening
-&lt;em&gt;Movies
-&lt;/em&gt;Scotch
-&lt;em&gt;Resin toy making
-&lt;/em&gt;Not being outside
-*Video games&lt;/p&gt;
-&lt;p&gt;It's a busy house when you have three small children.  There is always something that must be done for someone.  Someone wanting something.  Someone crying.  Now, I love my kids guys.  Don't even start in with all that.  All I'm saying is that if you have 3,000 hobbies and three kids, you aren't going to do those hobbies very much.&lt;/p&gt;
-&lt;p&gt;What's to be done?  I've considered giving up sleeping, but my eyes just close at some point and jack that plan right up.  Thanks, Obama.&lt;/p&gt;
-&lt;p&gt;So, there is my plight.  Too many interests, not enough time.  I know one day the kids will all be grown and I'll be sad they are off at college and my house is empty.  I know it.  But meanwhile, how do you fit it all in?  What do other people do?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Smith</dc:creator><pubDate>Wed, 09 Jul 2014 09:00:00 -0400</pubDate><guid>tag:smithellis.com,2014-07-09:2014/07/too-many-interests/</guid><category>linux</category><category>hobbies</category></item><item><title>On Being Smith Ellis</title><link>http://smithellis.com/2014/07/on-being-smith-ellis/</link><description>&lt;p&gt;Smith Ellis was born Benjamin Ellis, down in Florida.  He grew up in Georgia; mostly Stockbridge GA.  &lt;/p&gt;
+&lt;p&gt;Anyway, overall, it's not a bad CMS.  If the licensing wasn't so costly, and the modules so costly, it might have a wider adoption out there.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Smith</dc:creator><pubDate>Wed, 09 Jul 2014 09:00:00 -0400</pubDate><guid>tag:smithellis.com,2014-07-09:2014/07/expression-engine/</guid><category>EE</category><category>ExpressionEngine</category></item><item><title>On Being Smith Ellis</title><link>http://smithellis.com/2014/07/on-being-smith-ellis/</link><description>&lt;p&gt;Smith Ellis was born Benjamin Ellis, down in Florida.  He grew up in Georgia; mostly Stockbridge GA.  &lt;/p&gt;
 &lt;p&gt;Smith Ellis used to write, but has cooled his jets on that a bit.&lt;/p&gt;
 &lt;p&gt;Smith Ellis now enjoys programming, painting, resin toy making, electronics, robots, music making/listening and playing with his three children.&lt;/p&gt;
 &lt;p&gt;Smith Ellis was middle class, then he was poor, then he was rich, then he was middle class.&lt;/p&gt;
