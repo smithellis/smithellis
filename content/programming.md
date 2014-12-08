@@ -6,7 +6,7 @@ I am a person who likes to program.  Well, not specifically the act of programmi
 
 In my youth, I wrote BASIC on a Commodore 64.  I got so drawn in to that, I eventually got a book on assembly language to see how far I could take it.  Since I was like...10, I couldn't take it too far.  Plus, I was living in podunk nowhere land, and it wasn't like you could run up the street and get a few good books on Assembly Language.  If I had had Google and Codeacademy during my formitive years, lord knows what I'd be into today.
 
-Anyway, people ask me sometimes what language(s) I prefer and why all the time.  As I've aged, I've come up with the best possible answer I can give - I have a current preference for Python, but I'm not married to or utterly dogmatic about any language.  I have a strong dislike for Java, but otherwise...it's all the same to me.
+Anyway, people ask me what language(s) I prefer and why all the time.  As I've aged, I've come up with the best possible answer I can give - I have a current preference for Python, but I'm not married to or utterly dogmatic about any language.  I have a strong dislike for Java, but otherwise...it's all the same to me.
 
 The reason I feel that way is that languages come and grow and go and change - you'd be a fool to adamantly *only* like one.
 
