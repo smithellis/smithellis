@@ -11,8 +11,8 @@
 &lt;p&gt;The reason I feel that way is that languages come and grow and go and change - you'd be a fool to adamantly &lt;em&gt;only&lt;/em&gt; like one.&lt;/p&gt;
 &lt;p&gt;The real work in being someone who codes is understanding things like program flow, variable scope and data structures.  If you have a handle on these things, you can hack things together in almost any language.&lt;/p&gt;
 &lt;p&gt;What I am striving to be is a domain expert in one or two languages vs. a Jack of All Trades.  I think it's a good goal.  And I'd like to pick Python and/or Ruby to focus on for a while.  But my job is PHP, so there is a little disconnect there.  But I have flexibility where I am - so I can achieve these goals.&lt;/p&gt;
-&lt;p&gt;So, in summary.  I like creating and solving problems, and languages are just tools.  I have a lot of tools.  I tell people who ask me to not focus on the hammer, but on how to actually build the house.&lt;/p&gt;</summary><category term="Programming"></category><category term="Python"></category><category term="Ruby"></category></entry><entry><title>Docker on Ubuntu</title><link href="http://smithellis.com/2014/12/docker-on-ubuntu/" rel="alternate"></link><updated>2014-12-07T20:00:00-05:00</updated><author><name>Smith</name></author><id>tag:smithellis.com,2014-12-07:2014/12/docker-on-ubuntu/</id><summary type="html">&lt;p&gt;Docker is a tool that lets you develop and run applications in consistent environment.  It's different from a VM (or something like Vagrant) in that it doesn't include the full OS stack.  When you think of a VM, you are thinkin about a full guest OS running in a container on your computer - Docker is a container that only holds your application and its dependencies.  Small and fast!&lt;/p&gt;
-&lt;p&gt;On ubuntu, it's pretty easy to get up and running if you pay attention - the package is called "docker.io"...not "docker".&lt;/p&gt;
+&lt;p&gt;So, in summary.  I like creating and solving problems, and languages are just tools.  I have a lot of tools.  I tell people who ask me to not focus on the hammer, but on how to actually build the house.&lt;/p&gt;</summary><category term="Programming"></category><category term="Python"></category><category term="Ruby"></category></entry><entry><title>Docker on Ubuntu</title><link href="http://smithellis.com/2014/12/docker-on-ubuntu/" rel="alternate"></link><updated>2014-12-07T20:00:00-05:00</updated><author><name>Smith</name></author><id>tag:smithellis.com,2014-12-07:2014/12/docker-on-ubuntu/</id><summary type="html">&lt;p&gt;Docker is a tool that lets you develop and run applications in a consistent environment.  It's different from a VM (or something like Vagrant) in that it doesn't include the full OS stack.  When you think of a VM, you are thinking about a full guest OS running in a container on your computer - Docker is a container that only holds your application and its dependencies.  Small and fast!&lt;/p&gt;
+&lt;p&gt;On Ubuntu, it's pretty easy to get up and running if you pay attention - the package is called "docker.io"...not "docker".&lt;/p&gt;
 &lt;p&gt;So, fire up the command line and go nuts:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-get update
 sudo apt-get install docker.io
@@ -20,7 +20,7 @@ sudo apt-get install docker.io
 
 
 &lt;p&gt;Shampow - you now have it installed.  Using Docker is beyond the scope of my write up here - but an example from the documentation goes something like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;sudo docker run ubuntu:14.04 /bin/echo &amp;#39;Hellow world&amp;#39;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo docker run ubuntu:14.04 /bin/echo &amp;#39;Hello world&amp;#39;
 Hello world
 &lt;/pre&gt;&lt;/div&gt;
 
