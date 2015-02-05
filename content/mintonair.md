@@ -1,6 +1,7 @@
 Title: Linux Mint on Macbook Air dual boot
 Date: 12/16/2014 7:00
 Tags: linux,mint,osx,dual boot
+Status: draft
 
 Reboot and hold Command and S key down to enter single user mode
 fsk -fy
