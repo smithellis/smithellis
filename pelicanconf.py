@@ -29,7 +29,8 @@ TRANSLATION_FEED_ATOM = None
 LINKS = (('Paul McLanahan', 'http://pmac.io/'),
          ('Blackcattips', 'http://blackcattips.com/'),
          ('Mike Mitchell', 'http://sirmitchell.com/'),
-         ('AwesomeAthens', "http://www.awesomeathens.com/"),)
+         ('AwesomeAthens', "http://www.awesomeathens.com/"),
+	 ('ThriftKid', "http://thriftkid.com"),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/smith_ellis'),
