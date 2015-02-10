@@ -2,7 +2,7 @@ Title: Promoting Yourself and Your Site
 Date: 02/10/2015 7:00
 Tags: sites, monetization, seo, experiment, development, hosting
 
-I've been considering ways to start generating traffic to my sites.  For this site, [a blog for Smith Ellis][1], my only plan it to generate content that might be interesting for technologists and web nerds.  But for my other properties, I'm balancing time vs. value.
+I've been considering ways to start generating traffic to my sites.  For this site, [a blog for Smith Ellis][1], my only plan is to generate content that might be interesting for technologists and web nerds.  But for my other properties, I'm balancing time vs. value.
 
 For instance, [ThriftKid][3] isn't going to have constantly updated content.  Once I get it set up like I want it, the only content (right now) I plan to change will be adding products or updating resources.  I don't foresee a blog or a news feed there.  I think [ThriftKid][3] is a good idea, and could generate revenue - but I need to figure out how to make it better and more valuable.  
 
