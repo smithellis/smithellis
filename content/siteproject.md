@@ -22,7 +22,7 @@ But I *would* like to make a buck or two.  I figure if I can make enough money o
 
 ## Where I Am In The Plan
 
-I have [smithellis.com][1] up and online.  And active.  I have [nerpocalypse.com][2] online and available.  It's terrible right now.  I have [thriftkid.com][3] online and available, and it's somewhat useful...and hopefully will grow.  Lunchpal.com and Meanmrmustard.com are dead in the water.
+I have [smithellis.com][1] up and online.  And active.  I have [nerdpocalypse.com][2] online and available.  It's terrible right now.  I have [thriftkid.com][3] online and available, and it's somewhat useful...and hopefully will grow.  Lunchpal.com and Meanmrmustard.com are dead in the water.
 
 I hope you will come along with me as I explore making these sites into something useful and valuable.  If you have ideas, you can ping me on twitter ( @smith_ellis ).  You can also find me on Facebook or Google+.
 
