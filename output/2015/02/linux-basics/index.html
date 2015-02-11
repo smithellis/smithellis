@@ -101,34 +101,62 @@ A blog for Smith Ellis            </a>
                 <h1>Handy Linux Stuff</h1>
 <p>Linux is awesome.  I've been using some flavor of Linux for...a long time.  Right now on my personal machines, I'm mostly using [Mint][1].  It's just very clean and easy; if you don't feel like going configuration crazy, [Mint][1] might work for you.  I'm no longer a distro zealot - I've figured out that the right distro for you is the one you like.  So - enjoy!</p>
 <p>I thought I'd take a second and tell you about some simple command line things that I've found to be incredibly useful.  One is bash history.  If you use a bash shell, you really should take a second to learn about it.  </p>
-<p>At your command line, type:
-    history</p>
-<p>A giant list will sprawl before you of things you've typed in the shell.  If you just want to see the last ten or so, type:
-    history 10</p>
-<p>Each command has a number next to it.  If you want to rerun a command from your history, just type ! and the number.  So to rerun item 58:
-    !58</p>
+<p>At your command line, type:</p>
+<div class="highlight"><pre>history
+</pre></div>
+
+
+<p>A giant list will sprawl before you of things you've typed in the shell.  If you just want to see the last ten or so, type:</p>
+<div class="highlight"><pre>history 10
+</pre></div>
+
+
+<p>Each command has a number next to it.  If you want to rerun a command from your history, just type ! and the number.  So to rerun item 58:</p>
+<div class="highlight"><pre><span class="sx">!58</span>
+</pre></div>
+
+
 <p>Boom, it will run that command.  I find this handy if I've run some egregious one liner from the command line that I don't want to have to retype - a billion character piped nightmare of some type.</p>
-<p>Another good use for bash history is when you forget to sudo.  If you try to run a comand and get the ole "Permission denied", instead of retyping the whole command over again with a sudo in front, just type:
-    sudo !!</p>
+<p>Another good use for bash history is when you forget to sudo.  If you try to run a comand and get the ole "Permission denied", instead of retyping the whole command over again with a sudo in front, just type:</p>
+<div class="highlight"><pre>sudo !!
+</pre></div>
+
+
 <p>This equates to "sudo the last thing in my bash history".</p>
 <p>Pretty good, eh?</p>
-<p>Let's say you have something in your history that was a long time ago, and you need to search the history for it.  You could use grep:
-    history | grep mycommand</p>
+<p>Let's say you have something in your history that was a long time ago, and you need to search the history for it.  You could use grep:</p>
+<div class="highlight"><pre>history | grep mycommand
+</pre></div>
+
+
 <p>Alternately, you could use CTRL-r - smack CTRL-r and type a few letters of what you are looking for.  It should show up and be ready for execution!  If not, you can scroll through multiple things that were found by hitting CTRL-r again. </p>
-<p>This is really just the beginning.  You can go way down the bash history rabbit hole.  One last example and I'll carry move on - let's say you botched some spelling in your last command:
-    touch /etc/documentszd</p>
-<p>Whoops!  That should say documents...good news, just type:
-    ^documentszd^documents^</p>
+<p>This is really just the beginning.  You can go way down the bash history rabbit hole.  One last example and I'll carry move on - let's say you botched some spelling in your last command:</p>
+<div class="highlight"><pre>touch /etc/documentszd
+</pre></div>
+
+
+<p>Whoops!  That should say documents...good news, just type:</p>
+<div class="highlight"><pre>^documentszd^documents^
+</pre></div>
+
+
 <p>Boom goes the dynamite.  You are made whole.</p>
 <p>I forget all the deeper features of bash history and have to find refreshers on the web - but maybe this brief introduction will help someone with the basics.  </p>
 <h1>wget</h1>
 <p>This is really an unrelated side note, but one I wanted to mention.  I've seen a few people not understanding what wget does, and using it the wrong way.  So I just wanted to share.  wget is a command line tool for retrieving files via HTTP,HTTPS and FTP.</p>
-<p>People are using it to activate API calls:
-    wget http://blahhlachaksdjlskjdf.com/mything.php</p>
-<p>That works, but you are going to wind up downloading the output onto your filesystem.  If you must use wget instead of curl, be sure to pass it some flags to let it know you want the output sent to the garbage can (dev null).
-    wget --quiet -O /dev/null http://baklhalsdhjflskdjalk.com/mything</p>
+<p>People are using it to activate API calls:</p>
+<div class="highlight"><pre>wget http://blahhlachaksdjlskjdf.com/mything.php
+</pre></div>
+
+
+<p>That works, but you are going to wind up downloading the output onto your filesystem.  If you must use wget instead of curl, be sure to pass it some flags to let it know you want the output sent to the garbage can (dev null).</p>
+<div class="highlight"><pre>wget --quiet -O /dev/null http://baklhalsdhjflskdjalk.com/mything
+</pre></div>
+
+
 <p>That should work.</p>
 <p>Have a great day.  :-) </p>
+<p>[1]:[http://www.linuxmint.com/  "Linux Mint"]</p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -164,23 +192,13 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-2">
+                            <a href="http://smithellis.com/tag/hosting/">
+                                hosting
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-2">
                             <a href="http://smithellis.com/tag/monetization/">
                                 monetization
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-2">
-                            <a href="http://smithellis.com/tag/pelican/">
-                                pelican
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-2">
-                            <a href="http://smithellis.com/tag/seo/">
-                                seo
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-2">
-                            <a href="http://smithellis.com/tag/development/">
-                                development
                             </a>
                         </li>
                         <li class="list-group-item tag-2">
@@ -189,13 +207,8 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-2">
-                            <a href="http://smithellis.com/tag/programming/">
-                                programming
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-2">
-                            <a href="http://smithellis.com/tag/coding/">
-                                coding
+                            <a href="http://smithellis.com/tag/development/">
+                                development
                             </a>
                         </li>
                         <li class="list-group-item tag-2">
@@ -204,38 +217,58 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-2">
-                            <a href="http://smithellis.com/tag/automation/">
-                                automation
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-2">
                             <a href="http://smithellis.com/tag/echo/">
                                 echo
                             </a>
                         </li>
                         <li class="list-group-item tag-2">
-                            <a href="http://smithellis.com/tag/hosting/">
-                                hosting
+                            <a href="http://smithellis.com/tag/programming/">
+                                programming
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-2">
+                            <a href="http://smithellis.com/tag/seo/">
+                                seo
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-2">
+                            <a href="http://smithellis.com/tag/automation/">
+                                automation
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-2">
+                            <a href="http://smithellis.com/tag/coding/">
+                                coding
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-2">
+                            <a href="http://smithellis.com/tag/pelican/">
+                                pelican
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/python/">
-                                Python
+                            <a href="http://smithellis.com/tag/micasaverde/">
+                                micasaverde
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/containers/">
-                                Containers
+                            <a href="http://smithellis.com/tag/tech-companies/">
+                                tech companies
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/spam/">
-                                spam
+                            <a href="http://smithellis.com/tag/crawlers/">
+                                crawlers
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/bash/">
-                                bash
+                            <a href="http://smithellis.com/tag/code/">
+                                code
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/amazon/">
+                                amazon
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -249,33 +282,8 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/smith-ellis/">
-                                smith ellis
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/silicon-valley/">
-                                silicon valley
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/ruby/">
-                                Ruby
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/tech-companies/">
-                                tech companies
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/nodejs/">
-                                nodejs
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/asshats/">
-                                asshats
+                            <a href="http://smithellis.com/tag/jarvis/">
+                                jarvis
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -284,63 +292,38 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/angst/">
-                                angst
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/jarvis/">
-                                jarvis
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/attacks/">
-                                attacks
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/ee/">
-                                EE
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/kids/">
-                                kids
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/nerd/">
-                                nerd
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/hobbies/">
-                                hobbies
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/amazon/">
-                                amazon
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
                             <a href="http://smithellis.com/tag/smb/">
                                 smb
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/java/">
-                                java
+                            <a href="http://smithellis.com/tag/ellis/">
+                                ellis
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/docker/">
-                                Docker
+                            <a href="http://smithellis.com/tag/angst/">
+                                angst
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/home-automation/">
-                                home automation
+                            <a href="http://smithellis.com/tag/bash/">
+                                bash
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/containers/">
+                                Containers
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/big-data/">
+                                big data
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/bash-history/">
+                                bash history
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -349,8 +332,68 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/expressionengine/">
-                                ExpressionEngine
+                            <a href="http://smithellis.com/tag/kids/">
+                                kids
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/silicon-valley/">
+                                silicon valley
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/asshats/">
+                                asshats
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/domains/">
+                                Domains
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/attacks/">
+                                attacks
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/hobbies/">
+                                hobbies
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/cloud/">
+                                cloud
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/big-companies/">
+                                big companies
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/security/">
+                                security
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/nodejs/">
+                                nodejs
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/home-automation/">
+                                home automation
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/ruby/">
+                                Ruby
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/python/">
+                                Python
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -359,13 +402,23 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/code/">
-                                code
+                            <a href="http://smithellis.com/tag/ee/">
+                                EE
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/micasaverde/">
-                                micasaverde
+                            <a href="http://smithellis.com/tag/nerd/">
+                                nerd
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/spam/">
+                                spam
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="http://smithellis.com/tag/bootstrap/">
+                                Bootstrap
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -379,23 +432,18 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/big-companies/">
-                                big companies
+                            <a href="http://smithellis.com/tag/smith-ellis/">
+                                smith ellis
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/domains/">
-                                Domains
+                            <a href="http://smithellis.com/tag/docker/">
+                                Docker
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/big-data/">
-                                big data
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/security/">
-                                security
+                            <a href="http://smithellis.com/tag/java/">
+                                java
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -404,28 +452,8 @@ A blog for Smith Ellis            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/cloud/">
-                                cloud
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/bash-history/">
-                                bash history
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/crawlers/">
-                                crawlers
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/ellis/">
-                                ellis
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
-                            <a href="http://smithellis.com/tag/bootstrap/">
-                                Bootstrap
+                            <a href="http://smithellis.com/tag/expressionengine/">
+                                ExpressionEngine
                             </a>
                         </li>
                     </ul>

@@ -2,34 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>A blog for Smith Ellis</title><link>http://smithellis.com/</link><description>webdev, code, smith and such</description><atom:link href="http://smithellis.com/feeds/smith.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 11 Feb 2015 07:00:00 -0500</lastBuildDate><item><title>Linux Basics</title><link>http://smithellis.com/2015/02/linux-basics/</link><description>&lt;h1&gt;Handy Linux Stuff&lt;/h1&gt;
 &lt;p&gt;Linux is awesome.  I've been using some flavor of Linux for...a long time.  Right now on my personal machines, I'm mostly using [Mint][1].  It's just very clean and easy; if you don't feel like going configuration crazy, [Mint][1] might work for you.  I'm no longer a distro zealot - I've figured out that the right distro for you is the one you like.  So - enjoy!&lt;/p&gt;
 &lt;p&gt;I thought I'd take a second and tell you about some simple command line things that I've found to be incredibly useful.  One is bash history.  If you use a bash shell, you really should take a second to learn about it.  &lt;/p&gt;
-&lt;p&gt;At your command line, type:
-    history&lt;/p&gt;
-&lt;p&gt;A giant list will sprawl before you of things you've typed in the shell.  If you just want to see the last ten or so, type:
-    history 10&lt;/p&gt;
-&lt;p&gt;Each command has a number next to it.  If you want to rerun a command from your history, just type ! and the number.  So to rerun item 58:
-    !58&lt;/p&gt;
+&lt;p&gt;At your command line, type:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;history
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;A giant list will sprawl before you of things you've typed in the shell.  If you just want to see the last ten or so, type:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;history 10
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Each command has a number next to it.  If you want to rerun a command from your history, just type ! and the number.  So to rerun item 58:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="sx"&gt;!58&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;Boom, it will run that command.  I find this handy if I've run some egregious one liner from the command line that I don't want to have to retype - a billion character piped nightmare of some type.&lt;/p&gt;
-&lt;p&gt;Another good use for bash history is when you forget to sudo.  If you try to run a comand and get the ole "Permission denied", instead of retyping the whole command over again with a sudo in front, just type:
-    sudo !!&lt;/p&gt;
+&lt;p&gt;Another good use for bash history is when you forget to sudo.  If you try to run a comand and get the ole "Permission denied", instead of retyping the whole command over again with a sudo in front, just type:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo !!
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;This equates to "sudo the last thing in my bash history".&lt;/p&gt;
 &lt;p&gt;Pretty good, eh?&lt;/p&gt;
-&lt;p&gt;Let's say you have something in your history that was a long time ago, and you need to search the history for it.  You could use grep:
-    history | grep mycommand&lt;/p&gt;
+&lt;p&gt;Let's say you have something in your history that was a long time ago, and you need to search the history for it.  You could use grep:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;history | grep mycommand
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;Alternately, you could use CTRL-r - smack CTRL-r and type a few letters of what you are looking for.  It should show up and be ready for execution!  If not, you can scroll through multiple things that were found by hitting CTRL-r again. &lt;/p&gt;
-&lt;p&gt;This is really just the beginning.  You can go way down the bash history rabbit hole.  One last example and I'll carry move on - let's say you botched some spelling in your last command:
-    touch /etc/documentszd&lt;/p&gt;
-&lt;p&gt;Whoops!  That should say documents...good news, just type:
-    ^documentszd^documents^&lt;/p&gt;
+&lt;p&gt;This is really just the beginning.  You can go way down the bash history rabbit hole.  One last example and I'll carry move on - let's say you botched some spelling in your last command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;touch /etc/documentszd
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Whoops!  That should say documents...good news, just type:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;^documentszd^documents^
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;Boom goes the dynamite.  You are made whole.&lt;/p&gt;
 &lt;p&gt;I forget all the deeper features of bash history and have to find refreshers on the web - but maybe this brief introduction will help someone with the basics.  &lt;/p&gt;
 &lt;h1&gt;wget&lt;/h1&gt;
 &lt;p&gt;This is really an unrelated side note, but one I wanted to mention.  I've seen a few people not understanding what wget does, and using it the wrong way.  So I just wanted to share.  wget is a command line tool for retrieving files via HTTP,HTTPS and FTP.&lt;/p&gt;
-&lt;p&gt;People are using it to activate API calls:
-    wget http://blahhlachaksdjlskjdf.com/mything.php&lt;/p&gt;
-&lt;p&gt;That works, but you are going to wind up downloading the output onto your filesystem.  If you must use wget instead of curl, be sure to pass it some flags to let it know you want the output sent to the garbage can (dev null).
-    wget --quiet -O /dev/null http://baklhalsdhjflskdjalk.com/mything&lt;/p&gt;
+&lt;p&gt;People are using it to activate API calls:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;wget http://blahhlachaksdjlskjdf.com/mything.php
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;That works, but you are going to wind up downloading the output onto your filesystem.  If you must use wget instead of curl, be sure to pass it some flags to let it know you want the output sent to the garbage can (dev null).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;wget --quiet -O /dev/null http://baklhalsdhjflskdjalk.com/mything
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;That should work.&lt;/p&gt;
-&lt;p&gt;Have a great day.  :-) &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Smith</dc:creator><pubDate>Wed, 11 Feb 2015 07:00:00 -0500</pubDate><guid>tag:smithellis.com,2015-02-11:2015/02/linux-basics/</guid><category>linux</category><category>bash</category><category>bash history</category><category>wget</category><category>tips</category></item><item><title>Promoting Yourself and Your Site</title><link>http://smithellis.com/2015/02/promoting-yourself-and-your-site/</link><description>&lt;p&gt;I've been considering ways to start generating traffic to my sites.  For this site, &lt;a href="http://smithellis.com/" title="Smith Ellis"&gt;a blog for Smith Ellis&lt;/a&gt;, my only plan is to generate content that might be interesting for technologists and web nerds.  But for my other properties, I'm balancing time vs. value.&lt;/p&gt;
+&lt;p&gt;Have a great day.  :-) &lt;/p&gt;
+&lt;p&gt;[1]:[http://www.linuxmint.com/  "Linux Mint"]&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Smith</dc:creator><pubDate>Wed, 11 Feb 2015 07:00:00 -0500</pubDate><guid>tag:smithellis.com,2015-02-11:2015/02/linux-basics/</guid><category>linux</category><category>bash</category><category>bash history</category><category>wget</category><category>tips</category></item><item><title>Promoting Yourself and Your Site</title><link>http://smithellis.com/2015/02/promoting-yourself-and-your-site/</link><description>&lt;p&gt;I've been considering ways to start generating traffic to my sites.  For this site, &lt;a href="http://smithellis.com/" title="Smith Ellis"&gt;a blog for Smith Ellis&lt;/a&gt;, my only plan is to generate content that might be interesting for technologists and web nerds.  But for my other properties, I'm balancing time vs. value.&lt;/p&gt;
 &lt;p&gt;For instance, &lt;a href="http://thriftkid.com/" title="ThriftKid"&gt;ThriftKid&lt;/a&gt; isn't going to have constantly updated content.  Once I get it set up like I want it, the only content (right now) I plan to change will be adding products or updating resources.  I don't foresee a blog or a news feed there.  I think &lt;a href="http://thriftkid.com/" title="ThriftKid"&gt;ThriftKid&lt;/a&gt; is a good idea, and could generate revenue - but I need to figure out how to make it better and more valuable.  &lt;/p&gt;
 &lt;p&gt;It needs content - real content and advice.  And it needs attention.&lt;/p&gt;
 &lt;p&gt;I think about &lt;a href="http://fourhourworkweek.com/blog/" title="Tim Ferriss"&gt;Tim Ferriss&lt;/a&gt;, who I criticize and admire all in the same breath.  He knows how to promote, and now that he's gotten "critical mass" so that anything he talks about gets a wide audience.  Famous friends, hard work a few books don't hurt.  But, let's assume I don't have any famous friends or books.  Looks like hard work is all I can manage.&lt;/p&gt;
