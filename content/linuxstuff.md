@@ -64,4 +64,9 @@ That should work.
 
 Have a great day.  :-) 
 
-[1]:[http://www.linuxmint.com/	"Linux Mint"]
+## UPDATE!
+
+[Justin Ellingwood at DigitalOcean][2] has a much [much more detailed exposition on bash history here.][2].
+
+[1]: http://www.linuxmint.com/	"Linux Mint"
+[2]: https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps "Bash History"
