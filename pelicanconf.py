@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-
-AUTHOR = u'Smith'
+PLUGIN_PATHS = ['plugins/pelican-plugins']
+PLUGINS = ['related_posts','sitemap']
+AUTHOR = u'Smith Ellis'
 SITENAME = u'A blog for Smith Ellis'
 SITESUBTITLE = u'webdev, code, smith and such'
 SITEURL = 'http://smithellis.com'
@@ -25,12 +26,16 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+# Limit the tag cloud
+TAG_CLOUD_MAX_ITEMS=10
+
 # Blogroll
 LINKS = (('Paul McLanahan', 'http://pmac.io/'),
          ('Blackcattips', 'http://blackcattips.com/'),
          ('Mike Mitchell', 'http://sirmitchell.com/'),
          ('AwesomeAthens', "http://www.awesomeathens.com/"),
-	 ('ThriftKid', "http://thriftkid.com"),)
+         ('Smith Ellis', "http://smithellis.com/"),
+	 	 ('ThriftKid', "http://thriftkid.com"),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/smith_ellis'),
@@ -38,6 +43,8 @@ SOCIAL = (('twitter', 'http://twitter.com/smith_ellis'),
           ('github', 'http://github.com/smithellis'),)
 
 DEFAULT_PAGINATION = 10
+
+DISQUS_SITENAME='smithellisblog'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
