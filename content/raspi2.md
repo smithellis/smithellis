@@ -2,7 +2,7 @@ Title: Raspberry Pi 2 Update
 Date: 02/19/2015 7:00
 Tags: raspberry pi 2,raspi2,raspian,snappy,ubuntu,make,hack
 
-# Raspberry Pi 2 - Intial Thoughts
+# Raspberry Pi 2 - Initial Thoughts
 
 I took a few minutes to work on the Raspberry Pi 2 last night.  It's a nice device.  The improved processor and RAM are very noticeable, making this round of the Pi a servicable desktop replacement for web, media consumption and light development.
 
